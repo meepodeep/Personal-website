@@ -7,9 +7,9 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-red-200: oklch(88.5% 0.062 18.334);
     --color-rose-200: oklch(89.2% 0.058 10.001);
     --spacing: 0.25rem;
+    --container-lg: 32rem;
     --text-xl: 1.25rem;
     --text-xl--line-height: calc(1.75 / 1.25);
     --text-2xl: 1.5rem;
@@ -18,6 +18,7 @@
     --text-4xl--line-height: calc(2.5 / 2.25);
     --text-8xl: 6rem;
     --text-8xl--line-height: 1;
+    --radius-lg: 0.5rem;
     --default-transition-duration: 150ms;
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
@@ -173,6 +174,15 @@
   .relative {
     position: relative;
   }
+  .mx-auto {
+    margin-inline: auto;
+  }
+  .my-1 {
+    margin-block: calc(var(--spacing) * 1);
+  }
+  .my-100 {
+    margin-block: calc(var(--spacing) * 100);
+  }
   .block {
     display: block;
   }
@@ -182,17 +192,38 @@
   .table {
     display: table;
   }
-  .h-52 {
-    height: calc(var(--spacing) * 52);
+  .h-20 {
+    height: calc(var(--spacing) * 20);
   }
-  .w-52 {
-    width: calc(var(--spacing) * 52);
+  .h-50 {
+    height: calc(var(--spacing) * 50);
+  }
+  .h-100 {
+    height: calc(var(--spacing) * 100);
+  }
+  .w-20 {
+    width: calc(var(--spacing) * 20);
+  }
+  .w-90 {
+    width: calc(var(--spacing) * 90);
+  }
+  .w-200 {
+    width: calc(var(--spacing) * 200);
+  }
+  .w-300 {
+    width: calc(var(--spacing) * 300);
   }
   .border-collapse {
     border-collapse: collapse;
   }
   .resize {
     resize: both;
+  }
+  .content-center {
+    align-content: center;
+  }
+  .items-center {
+    align-items: center;
   }
   .border {
     border-style: var(--tw-border-style);
@@ -201,11 +232,14 @@
   .bg-rose-200 {
     background-color: var(--color-rose-200);
   }
+  .object-contain {
+    object-fit: contain;
+  }
+  .object-center {
+    object-position: center;
+  }
   .text-center {
     text-align: center;
-  }
-  .font-sans {
-    font-family: var(--font-sans);
   }
   .text-2xl {
     font-size: var(--text-2xl);
@@ -251,12 +285,6 @@
     @media (width >= 48rem) {
       font-size: var(--text-8xl);
       line-height: var(--tw-leading, var(--text-8xl--line-height));
-    }
-  }
-  .md\:text-xl {
-    @media (width >= 48rem) {
-      font-size: var(--text-xl);
-      line-height: var(--tw-leading, var(--text-xl--line-height));
     }
   }
 }
