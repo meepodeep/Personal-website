@@ -1,0 +1,1 @@
+<h1 class="text-2xl font-bold">Welcome to the Welcome to the Projects Page</h1>

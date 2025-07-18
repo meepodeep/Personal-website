@@ -1,1 +1,6 @@
-<h1 class="text-2xl font-bold">Welcome to the Projects Page</h1>
+<script lang="ts">
+    let img = "/images/ProjectsBG.png"
+</script>
+<main class="w-screen h-screen overflow-hidden">
+    <img src= { img } alt="Example" class="w-full h-full object-cover"/>
+</main>

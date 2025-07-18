@@ -42,7 +42,7 @@
         projects
     </button>
 <button
-        on:click={projects}
+
         on:mouseenter={onHoverAbout}
         on:mouseleave={onLeave}
         class = "absolute top-3/5 left-1/2 transform -translate-x-1/5 -translate-y-3/5 w-50 h-10 opacity-0"
@@ -50,7 +50,7 @@
         About
     </button>
 <button
-        on:click={projects}
+
         on:mouseenter={onHoverLinks}
         on:mouseleave={onLeave}
         class = "absolute top-7/10 left-1/2 transform -translate-x-1/5 -translate-y-4/5 w-50 h-10 opacity-0"
