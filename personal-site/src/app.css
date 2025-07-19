@@ -4,8 +4,15 @@
 @utility no-scrollbar {
   @apply [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
 }
+@font-face {
+  font-family: 'osx';
+  src: url('/fonts/128kMac.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 @theme {
     --font-pacifico: "Pacifico"; 
     --font-comic-relief: "Comic Relief";
-    --font-128k-mac: "/fonts/128k-mac.otf";
+    --font-osx: "osx";
 }
