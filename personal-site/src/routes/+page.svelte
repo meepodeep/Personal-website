@@ -38,7 +38,7 @@
         on:click={projects}
         on:mouseenter={onHoverProjects}
         on:mouseleave={onLeave}
-        class = "bg-amber-50 absolute top-3/8 left-1/2 transform -translate-x-2/6 -translate-y-1/2 w-50 h-10 opacity-0"
+        class = "bg-amber-50 absolute top-3/8 left-1/2 transform -translate-x-2/6 -translate-y-1/2 w-50 h-10 opacity-100"
         >
         projects
     </button>
@@ -56,7 +56,7 @@
 
         on:mouseenter={onHoverAbout}
         on:mouseleave={onLeave}
-        class = "bg-amber-50 absolute top-4/9 left-1/2 transform -translate-x-1/5 -translate-y-1/2 w-50 h-10 opacity-0"
+        class = "bg-amber-50 absolute top-4/9 left-1/2 transform -translate-x-1/5 -translate-y-1/2 w-50 h-10 opacity-100"
         >
         About
     </button>
@@ -74,7 +74,7 @@
 
         on:mouseenter={onHoverLinks}
         on:mouseleave={onLeave}
-        class = "bg-amber-50 absolute top-6/11 left-6/11 transform -translate-x-5/10 -translate-y-4/5 w-35 h-10 opacity-0"
+        class = "bg-amber-50 absolute top-6/11 left-6/11 transform -translate-x-5/10 -translate-y-4/5 w-35 h-10 opacity-100"
         >
         Links
     </button>
