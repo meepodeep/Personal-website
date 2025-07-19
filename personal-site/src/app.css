@@ -1,4 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Comic+Relief);
 @import "tailwindcss";
 @utility no-scrollbar {
   @apply [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
+}
+@theme {
+    --font-pacifico: "Pacifico"; 
+    --font-comic-relief: "Comic Relief";
+    --font-128k-mac: "/fonts/128k-mac.otf";
 }
