@@ -31,14 +31,14 @@
     }
 </script>
 
-<main class="w-screen h-screen overflow-hidden">
-    <img src= { img } alt="Example" class="w-full h-full object-cover"/>
+<main class="w-screen h-screen overflow-hidden relative">
+    <img src= { img } alt="Example" class="w-full h-full object-cover static"/>
 <!--main proj button-->
 <button
         on:click={projects}
         on:mouseenter={onHoverProjects}
         on:mouseleave={onLeave}
-        class = "bg-amber-50 absolute top-3/8 left-1/2 transform -translate-x-2/6 -translate-y-1/2 w-50 h-10 opacity-100"
+        class = "bg-amber-50 absolute top-[36%] left-[52%] w-50 h-10 -translate-x-1/2 -translate-y-1/2 opacity-100"
         >
         projects
     </button>
