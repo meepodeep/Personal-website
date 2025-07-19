@@ -12,6 +12,7 @@
   font-display: swap;
 }
 @theme {
+    --text-tiny: 0.5rem; 
     --font-pacifico: "Pacifico"; 
     --font-comic-relief: "Comic Relief";
     --font-osx: "osx";
