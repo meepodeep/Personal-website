@@ -8,7 +8,7 @@
 <script lang="ts">
     let isHovered = false;
     let selected = 0;
-    let img = "/images/main.png"
+    let img = "/images/main.webp"
     import { goto } from "$app/navigation";
     import { isHttpError } from "@sveltejs/kit";
 
@@ -18,16 +18,16 @@
     
     function onLeave()
     {
-        img = "/images/main.png"
+        img = "/images/main.webp"
     }
     function onHoverProjects(){
-        img = "/images/projects.png"
+        img = "/images/projects.webp"
     }
     function onHoverAbout(){
-        img = "/images/About.png"
+        img = "/images/About.webp"
     }
     function onHoverLinks(){
-        img = "/images/Links.png"
+        img = "/images/Links.webp"
     }
 </script>
 

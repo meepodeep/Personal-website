@@ -1,5 +1,5 @@
 <script lang="ts">
-    let img = "/images/ProjectsBG.png"
+    let img = "/images/ProjectsBG.webp"
 </script>
 <style lang="postcss">  
     @reference "tailwindcss";  
@@ -73,7 +73,7 @@
         <div class="item-body px-6">        
             First project
         </div>   
-        <img src="/images/main.png" class="rounded-lg shadow-md shrink" alt="Image 1" />     
+        <img src="/images/main.webp" class="rounded-lg shadow-md shrink" alt="Image 1" />     
         <div class="item-body px-6">        
             First project
         </div>   
