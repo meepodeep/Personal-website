@@ -32,7 +32,7 @@
 </script>
 
 <main class="w-screen h-screen overflow-hidden relative">
-    <img src= { img } alt="Example" class="w-full h-full object-cover static"/>
+    <img src= { img } alt="Example" class="w-full h-full object-cover absolute"/>
 <!--main proj button-->
 <button
         on:click={projects}
@@ -74,7 +74,7 @@
 
         on:mouseenter={onHoverLinks}
         on:mouseleave={onLeave}
-        class = "bg-amber-50 absolute top-6/11 left-6/11 transform -translate-x-5/10 -translate-y-4/5 w-35 h-10 opacity-100"
+        class = "bg-amber-50 absolute top-[54%] left-[55%] transform -translate-x-1/2 -translate-y-1/2 w-35 h-10 opacity-100"
         >
         Links
     </button>
