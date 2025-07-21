@@ -1,6 +1,6 @@
 <script lang="ts">
     let img = "/images/ProjectsBG.webp";
-    let code = "hello world";
+    let code = "Welcome to the projects page!";
     let page = "/wwp page";
     import { goto } from "$app/navigation";
     function wwp() {
