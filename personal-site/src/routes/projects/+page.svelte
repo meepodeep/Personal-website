@@ -37,7 +37,7 @@
         projects
     </button>
     <!-- main scroll box-->
-    <div class="font-osx overscroll-contain no-scrollbar h-70 md:h-100 lg:h-80 w-85 md:w-120 lg:w-140 overflow-y-scroll absolute top-1/2 left-4/8 transform -translate-x-32/64 md:-translate-x-29/64 lg:-translate-x-29/64 -translate-y-15/19">
+    <div class="font-osx overscroll-contain no-scrollbar h-70 md:h-100 lg:h-75 w-85 md:w-120 lg:w-140 overflow-y-scroll absolute top-[50%] lg:top-[51%] left-4/8 transform -translate-x-32/64 md:-translate-x-29/64 lg:-translate-x-29/64 -translate-y-15/19">
     <div class="content grid grid-cols-2 p-4 space-y-4">
         <!--Delivery Drone Vid-->
          <video class="pt-4 w-75 h-75 overflow-hidden rounded-2xl" controls>
