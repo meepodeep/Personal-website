@@ -32,13 +32,13 @@
 </script>
 
 <main class="w-screen h-screen overflow-hidden relative">
-    <img src= { img } alt="Example" class="w-full h-full object-cover absolute"/>
+    <img src= { img } alt="Background" class="w-full h-full object-cover absolute"/>
 <!--main proj button-->
 <button
         on:click={projects}
         on:mouseenter={onHoverProjects}
         on:mouseleave={onLeave}
-        class = "bg-amber-50 absolute top-[36%] left-[52%] w-50 h-10 -translate-x-1/2 -translate-y-1/2 sm:opacity-0"
+        class = "bg-amber-50 absolute top-[36%] left-[52%] w-50 h-10 -translate-x-1/2 -translate-y-1/2 opacity-0"
         >
         projects
     </button>
@@ -56,7 +56,7 @@
 
         on:mouseenter={onHoverAbout}
         on:mouseleave={onLeave}
-        class = "bg-amber-50 absolute top-4/9 left-1/2 transform -translate-x-1/5 -translate-y-1/2 w-50 h-10 sm:opacity-0"
+        class = "bg-amber-50 absolute top-4/9 left-1/2 transform -translate-x-1/5 -translate-y-1/2 w-50 h-10 opacity-0"
         >
         About
     </button>
@@ -74,7 +74,7 @@
 
         on:mouseenter={onHoverLinks}
         on:mouseleave={onLeave}
-        class = "bg-amber-50 absolute top-[54%] left-[55%] transform -translate-x-1/2 -translate-y-1/2 w-35 h-10 sm:opacity-0"
+        class = "bg-amber-50 absolute top-[54%] left-[55%] transform -translate-x-1/2 -translate-y-1/2 w-35 h-10 opacity-0"
         >
         Links
     </button>

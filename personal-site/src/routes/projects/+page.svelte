@@ -1,5 +1,22 @@
 <script lang="ts">
-    let img = "/images/ProjectsBG.webp"
+    let img = "/images/ProjectsBG.webp";
+    let code = "hello world";
+    let page = "/wwp page";
+    import { goto } from "$app/navigation";
+    function wwp() {
+        goto (page)
+    }
+    function onHoverWwp(){
+        if (code == "projects page page"){
+            page = "/wwp page"
+        }else{
+            page = ""
+        }
+        img = "/images/floppy disk.webp";
+    }
+    function onLeave(){
+        img = "/images/ProjectsBG.webp";
+    }
 </script>
 <style lang="postcss">  
     @reference "tailwindcss";  
@@ -9,7 +26,16 @@
     }
 </style>
 <main class="overflow-hidden font-128k-mac text-black">
-    <img src= { img } alt="Example" class="w-screen h-screen object-cover"/>
+    <img src= { img } alt="Background" class="w-screen h-screen object-cover"/>
+    <input bind:value={code} class = "absolute top-[20%] left-[38%] -translate-y-1/2 -translage-x-1/2 bg-white w-100 border-black border-2 font-osx hidden lg:block" placeholder="Welcome to the projects page! :)">
+    <button
+        on:click={wwp}
+        on:mouseenter={onHoverWwp}
+        on:mouseleave={onLeave}
+        class = "bg-amber-50 absolute top-[80%] left-[63%] w-70 h-10 -translate-x-1/2 -translate-y-1/2 opacity-0"
+        >
+        projects
+    </button>
     <!-- main scroll box-->
     <div class="font-osx overscroll-contain no-scrollbar h-70 md:h-100 lg:h-80 w-85 md:w-120 lg:w-140 overflow-y-scroll absolute top-1/2 left-4/8 transform -translate-x-32/64 md:-translate-x-29/64 lg:-translate-x-29/64 -translate-y-15/19">
     <div class="content grid grid-cols-2 p-4 space-y-4">
@@ -113,6 +139,48 @@
                 <li>Reads as a gamepad joystick</li>
                 <li>Works with any game</li>
                 <li>90% 3d printed</li>
+            </ul>   
+            <div class="px-2">
+                <h2 class="text-sm md:text-xl lg:text-2xl">
+                    GitHub
+                </h2>
+                <h3 class="px-4 text-tiny md:text-sm lg:text-l 2xl:text-xl text-blue-800">
+                    <a href="">not yet</a>
+                </h3>
+            </div>
+        </div>
+        <img src="/images/drone.webp" class="rounded-lg shadow-md shrink" alt="Image 1" />    
+        <div>    
+            <h1 class="px-2 text-l md:text-xl lg:text-3xl">
+                5in Drone 
+            </h1>   
+            <h3 class="px-2 pt-2 text-tiny md:text-sm lg:text-l 2xl:text-xl">
+                5in fpv drone
+            </h3>
+            <h2 class="pl-2 text-sm md:text-xl lg:text-2xl">
+                Features
+            </h2>
+            <ul class="list-disc px-6 text-tiny md:text-sm lg:text-l 2xl:text-xl">
+                <li>Expresslrs radio link</li>
+                <li>Caddx vista vtx (not shown)</li>
+                <li>Betaflight</li>
+            </div>
+        <img src="/images/turbine.webp" class="rounded-lg shadow-md shrink" alt="Image 1" />    
+        <div>    
+            <h1 class="px-2 text-l md:text-xl lg:text-3xl">
+                Wind turbine
+            </h1>   
+            <h3 class="px-2 pt-2 text-tiny md:text-sm lg:text-l 2xl:text-xl">
+                3d printed wind turbine
+            </h3>
+            <h2 class="pl-2 text-sm md:text-xl lg:text-2xl">
+                Features
+            </h2>
+            <ul class="list-disc px-6 text-tiny md:text-sm lg:text-l 2xl:text-xl">
+                <li>Stepper generator</li>
+                <li>Dual bridge rectifier in series</li>
+                <li>90% 3d printed</li>
+                <li>Test bench for airfoil efficiency</li>
             </ul>   
             <div class="px-2">
                 <h2 class="text-sm md:text-xl lg:text-2xl">
