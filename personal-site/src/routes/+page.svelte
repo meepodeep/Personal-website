@@ -15,6 +15,12 @@
     function projects() {
         goto ('/projects');
     }
+    function about() {
+        goto ('/about')
+    }
+    function links(){
+        goto ('/links')
+    }
     
     function onLeave()
     {
@@ -53,7 +59,7 @@
     </button>
 <!--About button-->
 <button
-
+        on:click={about}
         on:mouseenter={onHoverAbout}
         on:mouseleave={onLeave}
         class = "bg-amber-50 absolute top-4/9 left-1/2 transform -translate-x-1/5 -translate-y-1/2 w-50 h-10 opacity-0"
@@ -62,7 +68,7 @@
     </button>
 <!--Machine button-->
 <button
-
+        on:click={about}
         on:mouseenter={onHoverAbout}
         on:mouseleave={onLeave}
         class = "bg-amber-50 absolute top-4/9 left-1/4 transform -translate-x-1/2 -translate-y-1/4 w-80 h-75 sm:opacity-0 hidden lg:block"
@@ -71,7 +77,7 @@
     </button>
 <!--links button-->
 <button
-
+        on:click={links}
         on:mouseenter={onHoverLinks}
         on:mouseleave={onLeave}
         class = "bg-amber-50 absolute top-[54%] left-[55%] transform -translate-x-1/2 -translate-y-1/2 w-35 h-10 opacity-0"
@@ -80,7 +86,7 @@
     </button>
 <!--links object button-->
 <button
-
+        on:click={links}
         on:mouseenter={onHoverLinks}
         on:mouseleave={onLeave}
         class = "bg-amber-50 absolute top-1/2 left-0/2 transform -translate-x-1/5 -translate-y-1/2 w-55 h-75 sm:opacity-0 hidden lg:block"

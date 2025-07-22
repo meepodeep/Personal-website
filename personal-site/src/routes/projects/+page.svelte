@@ -6,9 +6,12 @@
     function wwp() {
         goto (page)
     }
+    function close(){
+        goto ("/")
+    }
     function onHoverWwp(){
         if (code == "projects page page"){
-            page = "/wwp page"
+            page = "/wpp page"
         }else{
             page = ""
         }
@@ -27,6 +30,12 @@
 </style>
 <main class="overflow-hidden font-128k-mac text-black">
     <img src= { img } alt="Background" class="w-screen h-screen object-cover"/>
+    <button
+        on:click={close}
+        class="bg-white border-2 border-black font-osx h-7 w-7 absolute top-[20%] left-[5%] md:left-[15%] lg:left-[37%] -translate-x-1/2 -translate-y-1/2"
+        >
+            X
+    </button>
     <input bind:value={code} class = "absolute top-[20%] left-[38%] -translate-y-1/2 -translage-x-1/2 bg-white w-100 border-black border-2 font-osx hidden lg:block" placeholder="Welcome to the projects page! :)">
     <button
         on:click={wwp}
