@@ -14,10 +14,11 @@
             X
         </button>
         <h1 class="text-4xl my-10 "> Links! </h1>
-        <div class="text-center text-blue-400 w-100 overflow-y-scroll content grid grid-cols-1 p-4 h-50 space-y-4 text-l sm:text-l md:text-xl lg:text-4xl mx-20 md:mx-10 lg:mx-30 overscroll-contain absolute top-[50%] left-[35%] -translate-x-1/2 -translate-y-1/2">
+        <div class="text-center text-blue-400 w-100 overflow-y-scroll content grid grid-cols-1 p-4 h-80 space-y-4 text-2xl sm:text-2xl md:text-3xl lg:text-4xl mx-20 md:mx-10 lg:mx-30 overscroll-contain absolute top-[50%] left-[35%] md:left-[44%] lg:left-[35%] -translate-x-1/2 -translate-y-1/2">
            <a href="https://github.com/meepodeep">GitHub</a>
            <a href="https://www.youtube.com/@meepodeepFPV/videos">YouTube</a>
            <a href="https://www.nintendo.com/us/store/products/the-legend-of-zelda-tears-of-the-kingdom-nintendo-switch-2-edition-switch-2/">Link!</a>
+           <a href="https://www.printables.com/@meepodeep">Josef site!(printables)</a>
         </div>
     </div>
 
