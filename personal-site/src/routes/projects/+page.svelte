@@ -200,7 +200,59 @@
                 </h3>
             </div>
         </div>
-        <!-- Add more as needed -->
+        <!--ebrake -->
+         <img src="/images/ebrake.webp" class="rounded-lg shadow-md shrink" alt="Image 1" />    
+        <div>    
+            <h1 class="px-2 text-l md:text-xl lg:text-3xl">
+                sim handbrake
+            </h1>   
+            <h3 class="px-2 pt-2 text-tiny md:text-sm lg:text-l 2xl:text-xl">
+                handbrake for racing simulators
+            </h3>
+            <h2 class="pl-2 text-sm md:text-xl lg:text-2xl">
+                Features
+            </h2>
+            <ul class="list-disc px-6 text-tiny md:text-sm lg:text-l 2xl:text-xl">
+                <li>Hall sensor</li>
+                <li>sturdy aluminum construction</li>
+                <li>laser cut side windows</li>
+            </ul>   
+            <div class="px-2">
+                <h2 class="text-sm md:text-xl lg:text-2xl">
+                    GitHub
+                </h2>
+                <h3 class="px-4 text-tiny md:text-sm lg:text-l 2xl:text-xl text-blue-800">
+                    <a href="https://github.com/meepodeep/sim-ebrake">Here!</a>
+                </h3>
+            </div>
+        </div>
+        <!-- shifter -->
+          <img src="/images/shifter.webp" class="rounded-lg shadow-md shrink" alt="Image 1" />    
+        <div>    
+            <h1 class="px-2 text-l md:text-xl lg:text-3xl">
+                sim shifter
+            </h1>   
+            <h3 class="px-2 pt-2 text-tiny md:text-sm lg:text-l 2xl:text-xl">
+                notchy shifter for racing simulators
+            </h3>
+            <h2 class="pl-2 text-sm md:text-xl lg:text-2xl">
+                Features
+            </h2>
+            <ul class="list-disc px-6 text-tiny md:text-sm lg:text-l 2xl:text-xl">
+                <li>realistic feeling shifting</li>
+                <li>mostly 3d printed</li>
+                <li>works with any sim</li>
+            </ul>   
+            <div class="px-2">
+                <h2 class="text-sm md:text-xl lg:text-2xl">
+                    GitHub
+                </h2>
+                <h3 class="px-4 text-tiny md:text-sm lg:text-l 2xl:text-xl text-blue-800">
+                    <a href="https://github.com/meepodeep/sim-shifter">Here!</a>
+                </h3>
+            </div>
+        </div>
+        <!--add more as needed-->
     </div>
 </div>
 
